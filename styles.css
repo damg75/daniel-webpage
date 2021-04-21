@@ -3,10 +3,10 @@
     background-color: #212529;
 }
 .bg-dark-green {
-    background-color: #3B5948;
+    background-color: #682727;
 }
 .color-dark-green {
-    color: #3B5948;
+    color: #682727;
 }
 .color-dark-blue {
     color: #212529;
@@ -16,7 +16,7 @@
     font-weight: bold;
 }
 .bg-semi-dark {
-    background-color: rgba(0,0,0,0.75);
+  background-color: #682727;
 }
 /* header */
 .header-class {
@@ -60,7 +60,6 @@
 }
 .cover-title {
     width: 75%;
-    background-color: rgba(50, 79, 58, 0.75);
 }
 /* \About me */
 .card-image {
