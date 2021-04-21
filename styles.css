@@ -2,11 +2,19 @@
 .bg-dark-blue {
     background-color: #212529;
 }
-.bg-dark-green {
-    background-color: #682727;
+.bg-dark-red {
+    background-color: #831c1c;
 }
-.color-dark-green {
-    color: #682727;
+.color-dark-red {
+    color: #831c1c;
+}
+.color-dark-red-link {
+  color: #831c1c;
+}
+.color-dark-red-link:hover {
+  color: #831c1c;
+  cursor: pointer;
+  font-weight: bold;
 }
 .color-dark-blue {
     color: #212529;
@@ -16,7 +24,7 @@
     font-weight: bold;
 }
 .bg-semi-dark {
-  background-color: #682727;
+  background-color: #831c1c;
 }
 /* header */
 .header-class {
@@ -63,7 +71,7 @@
 }
 /* \About me */
 .card-image {
-    border: 1px solid #3B5948!important;
+    border: 1px solid #831c1c!important;
     border-width: 5px!important;
 }
 .language:hover{
