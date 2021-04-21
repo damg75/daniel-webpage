@@ -54,11 +54,11 @@
             </div>
             <br>
             <div class="container" style="width: 75%;">
-                <p class="lead">Bienvenidos a mi sitio wep personal, navega por el site utilizando los links de abajo</p>
+                <p class="lead">Bienvenido</p>
             </div>  
             <p class="lead">
               <a href="#about-me" class="btn btn-lg btn-outline-light mt-2">Sobre Mí</a>
-              <a href="#technologies" class="btn btn-lg btn-outline-light mt-2 ms-1">Servicios</a>
+              <a href="#technologies" class="btn btn-lg btn-outline-light mt-2 ms-1">Tecnologías</a>
               <a href="#contact" class="btn btn-lg btn-outline-light mt-2 ms-1">Contáctame</a>
             </p>
           </div>
@@ -81,7 +81,7 @@
             </div>
             <div class="row row-cols-1 row-cols-md-2 t-2">
                 <div class="col-12 col-md-6 mb-2">
-                    <div class="card h-100 bg-dark-blue shadow rounded p-3 text-center d-flex flex-column justify-content-start" style="width: 100%;" data-aos="fade-up">
+                    <div class="card h-100 bg-dark-blue-light shadow rounded p-3 text-center d-flex flex-column justify-content-start" style="width: 100%;" data-aos="fade-up">
                         <div class="rounded">
                             <img src="assets/person.jpg" class="card-img-top border-5 rounded border card-image" alt="Card Pic" style="width: 150px;">
                         </div>
@@ -90,7 +90,7 @@
                             <h6 class="card-subtitle mb-2 text-muted">Desarrollador Web Full Stack</h6>
                             <h6 class="card-subtitle mb-2 text-muted">Ingeniero Mecánico</h6>
                             <h6 class="card-subtitle mb-2 text-muted"> <span class="language" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hi! I Speak English">🇬🇧 English</span> | <span class="language" data-bs-toggle="tooltip" data-bs-placement="bottom" title="¡Hola! Hablo Español">🇪🇸 Español</span></h6>
-                            <h6 class=""><a class="nav-link color-dark-red-link" href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i> Contáctame</a></h6>
+                            <h6 class=""><a class="nav-link color-dark-white-link" href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i> Contáctame</a></h6>
                             <h6><a href="contact"></a></h6>
                             <div class="mt-4 rounded">
                                 <img src="assets/coding-night.gif" class="rounded border-0" alt="Card Pic" style="width: 200px;">
@@ -102,7 +102,7 @@
                     <div class="card h-100 bg-dark-blue shadow rounded p-3 d-flex flex-column justify-content-center" style="width: 100%;" data-aos="fade-down">
                         <div class="card-body text-center"><i class="fas fa-coffee fa-4x color-dark-red"></i></div>
                         <div class="card-body text-left">
-                            <p class="card-text text-justify">
+                            <p class="card-text text-justify wobble-hor-bottom2">
                                 ¡Saludos visitante! 👋
                             </p>
                             <p class="card-text text-justify">
@@ -123,97 +123,85 @@
     <!-- Sobre mí -->
 
 
-    <!-- Servicios -->
+    <!-- Tecnologías -->
     <section id="technologies">
         <div class="container">
             <div class="row">
                 <div class="col d-flex flex-column text-center mt-2 color-dark-red" data-aos="flip-up">
-                    <i class="fas fa-briefcase fa-4x"></i>
+                    <i class="fas fa-laptop-code fa-4x"></i>
                     <br>
-                    <h3>Servicios</h3>
+                    <h3>Tecnologías</h3>
+                    <br>
+                    <br>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4 techno-card-container">
                 <div class="col" data-aos="fade-up">
-                    <div class="card h-100 text-white bg-dark-blue text-center p-4">
-                        <i class="fas fa-award fa-3x color-dark-red"></i>
+                    <div class="card h-100 text-white bg-dark-blue text-center p-4 techno-card">
+                        <div class="d-flex flex-column bg-dark-blue-light rounded p-4">
+                            <i class="fas fa-cog fa-4x color-dark-red rotate-center"></i>
+                            <br>
+                            <h3 class="color-dark-red">Back-End</h3>
+                        </div>
                         <br>
-                        <h6 class="color-dark-red">Certificaciones</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fugiat numquam unde?</p>
-                    </div>  
-                </div>
-                <div class="col" data-aos="fade-up">
-                    <div class="card h-100 text-white bg-dark-blue text-center p-4">
-                        <i class="far fa-file-alt fa-3x color-dark-red"></i>
-                        <br>
-                        <h6 class="color-dark-red">Documentos</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate inventore beatae nesciunt optio laudantium dolor? Consequuntur aliquam illum amet ipsa!</p>
-                    </div>
-                </div>
-                <div class="col" data-aos="fade-up">
-                    <div class="card h-100 text-white bg-dark-blue text-center p-4">
-                        <i class="fas fa-images fa-3x color-dark-red"></i>
-                        <br>
-                        <h6 class="color-dark-red">Imágenes y Videos</h6>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus?</p>
-                    </div>
-                </div>
-                <div class="col" data-aos="fade-down">
-                    <div class="card h-100 text-white bg-dark-blue text-center p-4">
-                        <i class="fas fa-book-open fa-3x color-dark-red"></i>
-                        <br>
-                        <h6 class="color-dark-red">Manuales Técnicos y Corporativos</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fugiat numquam unde?</p>
+                        <p class="border">Ruby on Rails</p>
+                        <p class="border">RESTful API's</p>
+                        <p class="border">ORM</p>
+                        <p class="border">SQLite</p>
+                        <p class="border">PostgreSQL</p>
                     </div>  
                 </div>
                 <div class="col" data-aos="fade-down">
-                    <div class="card h-100 text-white bg-dark-blue text-center p-4">
-                        <i class="fas fa-assistive-listening-systems fa-3x color-dark-red"></i>
+                    <div class="card h-100 text-white bg-dark-blue-light text-center p-4 techno-card">
+                        <div class="d-flex flex-column bg-dark-blue rounded p-4">
+                            <i class="fas fa-file-code fa-4x color-dark-red color-change-3x"></i>
+                            <br>
+                            <h3 class="color-dark-red color-change-3x">Front-End</h3>
+                        </div>
                         <br>
-                        <h6 class="color-dark-red">Interpretaciones</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fugiat numquam unde?</p>
+                        <p class="border">HTML5 - CSS3</p>
+                        <p class="border">Responsive Design</p>
+                        <p class="border">SASS</p>
+                        <p class="border">Javascript</p>
+                        <p class="border">Bootstrap</p>
+                        <p class="border">AJAX</p>
                     </div>  
                 </div>
-                <div class="col" data-aos="fade-down">
+                <div class="col techno-card" data-aos="fade-up">
                     <div class="card h-100 text-white bg-dark-blue text-center p-4">
-                        <i class="fas fa-scroll fa-3x color-dark-red"></i>
+                        <div class="d-flex flex-column bg-dark-blue-light rounded p-4">
+                            <i class="fas fa-server fa-4x color-dark-red bounce-out-bck"></i>
+                            <br>
+                            <h3 class="color-dark-red">DevOps</h3>
+                        </div>
                         <br>
-                        <h6 class="color-dark-red">Guiones</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fugiat numquam unde?</p>
+                        <p class="border">Git - Github - Gitlab</p>
+                        <p class="border">AWS-S3</p>
+                        <p class="border">Heroku</p>
+                        <p class="border">GH-Pages</p>
                     </div>  
                 </div>
-            </div>
-            <div class="row counter-up">
-                <div class="content">
-                    <div class="box">
-                        <div class="icon"><i class="fas fa-history"></i></div>
-                        <div class="text">Más de</div>
-                        <div class="counters" id="counter-years">15</div>
-                        <div class="text">Años de Experiencia</div>
-                    </div>
-                    <div class="box">
-                        <div class="icon color-dark-red"><i class="fas fa-check"></i></div>
-                        <div class="text">Más de</div>
-                        <div class="counters">200</div>
-                        <div class="text">Entregas Completadas</div>
-                    </div>
-                    <div class="box">
-                        <div class="icon"><i class="fas fa-users"></i></div>
-                        <div class="text">Más de</div>
-                        <div class="counters">50</div>
-                        <div class="text">Clientes Felices</div>
-                    </div>
-                    <div class="box">
-                        <div class="icon"><i class="fas fa-mug-hot"></i></div>
-                        <div class="text">Más de</div>
-                        <div class="counters">1200</div>
-                        <div class="text">Tazas de Café 😅</div>
-                    </div>
+                <div class="col techno-card" data-aos="fade-down">
+                    <div class="card h-100 text-white bg-dark-blue-light text-center p-4">
+                        <div class="d-flex flex-column bg-dark-blue rounded p-4">
+                            <i class="fas fa-lightbulb fa-4x color-dark-red wobble-hor-bottom"></i>
+                            <br>
+                            <h3 class="color-dark-red">Other</h3>
+                        </div>
+                        <br>
+                        <p class="border">WooCommerce</p>
+                        <p class="border">Shopify</p>
+                        <p class="border">Jekyll</p>
+                        <p class="border">Google Domains</p>
+                        <p class="border">Matlab</p>
+                    </div>  
                 </div>
             </div>
         </div>
     </section>
-    <!-- Serivicio -->
+    <br>
+    <br>
+    <!-- Tecnologías -->
 
 
     <!-- Contactame -->
@@ -231,34 +219,23 @@
                     <div class="card h-100 bg-dark-blue shadow rounded p-3 text-left d-flex flex-column justify-content-start" data-aos="flip-right">
                         <div class="card-body">
                             <h5 class="card-title">Contacto</h5>
+                            <p class="card-text">¿Tienes una idea para desarrollar? ¿Tienes una propuesta de trabajo? 🤔</p>
                             <p class="card-text">Estoy encantado de recibir su contacto, puede utilizar el formulario adyacente o los medios que dispongo abajo:</p>
                             <ul class="list-group bg-success list-group-flush">
                                 <li class="list-group-item bg-dark-blue text-white linker">
-                                    <a href="https://www.google.com.mx/maps/place/Monterrey,+N.L.,+M%C3%A9xico/@25.6297896,-100.6267804,10z/data=!4m5!3m4!1s0x86629531b437f8f5:0xa3d3d3ca6ac89894!8m2!3d25.6866142!4d-100.3161126" style="text-decoration: none;" class="text-white" target="_blank" rel="noreferrer">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        Monterrey, Nuevo León, México
-                                    </a>
-                                </li>
-                                <li class="list-group-item bg-dark-blue text-white linker" id="telefonos">
-                                    <a href="https://api.whatsapp.com/send?phone=52181309170436&text=Saludos%20Cordiales%20Manuel%20" style="text-decoration: none;" class="text-white" target="_blank" rel="noreferrer">
-                                        <i class="fab fa-whatsapp"></i>
-                                        +52 1 81 3091 7043
-                                    </a>
-                                </li>
-                                <li class="list-group-item bg-dark-blue text-white linker">
                                     <i class="fas fa-envelope-square"></i>
-                                    <a href="mailto:masayqueso@gmail.com" style="text-decoration: none;" class="text-white">masayqueso@gmail.com</a>
+                                    <a href="mailto:da.morangarcia@gmail.com" style="text-decoration: none;" class="text-white">da.morangarcia@gmail.com</a>
                                 </li>
                                 <li class="list-group-item bg-dark-blue text-white linker" id="socialmedia">
-                                    <a href="https://www.linkedin.com/in/manuel-alberto-mor%C3%A1n-l%C3%A1zaro-788577207/" target="_blank" style="text-decoration: none;" class="text-white" rel="noreferrer">
+                                    <a href="https://www.linkedin.com/in/damgdev" target="_blank" style="text-decoration: none;" class="text-white" rel="noreferrer">
                                         <i class="fab fa-linkedin"></i>
                                         LinkedIn
                                     </a>
                                 </li>
                                 <li class="list-group-item bg-dark-blue text-white linker" id="socialmedia">
-                                <a href="https://www.youtube.com/channel/UCK-CdA_fg8dhmnrBBg2An4w" target="_blank" style="text-decoration: none;" class="text-white" rel="noreferrer">
-                                    <i class="fab fa-youtube"></i>
-                                    TunnelVision Tunnel
+                                <a href="https://linktr.ee/damg75" target="_blank" style="text-decoration: none;" class="text-white" rel="noreferrer">
+                                    <i class="fas fa-link"></i>
+                                    Linktree
                                 </a>
                                 </li>
                             </ul>
@@ -344,7 +321,7 @@
 
 
     <!-- forTop -->
-    <button id="myBtn" title="ir al inicio" class="btn btn-success btn-lg bg-dark-red" style="border-color: #3B5948;">
+    <button id="myBtn" title="ir al inicio" class="btn btn-success btn-lg bg-dark-red" style="border-color: #831c1c;">
         <i class="fas fa-arrow-up fa-1x"></i>
     </button>
     <!-- forTop -->
@@ -356,14 +333,6 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
         <script src="app.js"></script>
-        <script>
-            $(document).ready(function(){
-              $('.counters').counterUp({
-                delay: 10,
-                // time: 1200,
-              });
-            });
-        </script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init({
