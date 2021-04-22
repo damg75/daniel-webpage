@@ -2,6 +2,12 @@
 .bg-dark-blue {
     background-color: #212529;
 }
+.future-font {
+  font-family: 'Orbitron', sans-serif;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
 .bg-dark-blue-light {
   background-color: #30353a;
 }
@@ -35,6 +41,9 @@
 /* header */
 .dm-logo {
   width: 300px;
+}
+header {
+  font-family: 'Orbitron', sans-serif;
 }
 .header-class {
     min-height: 100vh;
@@ -77,6 +86,7 @@
 }
 .cover-title {
     width: 75%;
+    font-family: 'Orbitron', sans-serif;
 }
 .containerin {
   height: 100%;
@@ -177,6 +187,10 @@
 	-webkit-animation: slide-out-fwd-tr 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
 	        animation: slide-out-fwd-tr 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
 }
+.slide-out3 {
+	-webkit-animation: slide-out-fwd-tr3 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+	        animation: slide-out-fwd-tr3 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+}
 .wobble-hor-bottom2 {
 	-webkit-animation: wobble-hor-bottom 5s infinite ;
 	        animation: wobble-hor-bottom 5s infinite ;
@@ -203,10 +217,12 @@
 }
 .techno-card {
   transition: 1s;
+  color: #fff;
 }
 .techno-card:hover{
-  -webkit-animation: slide-out-fwd-tr2 0.5s  both;
-  animation: slide-out-fwd-tr2 0.5s  both;
+  /* cursor: url('assets/icons8-computadora-64.png'), auto; */
+  background-color: #971919;
+  border: #fff;
 }
 .ping {
 	-webkit-animation: ping 5s ease-in-out infinite both;

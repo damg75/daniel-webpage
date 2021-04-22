@@ -16,6 +16,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <link rel="icon" type="image/png" href="assets/dm-loguito.png" sizes="64x64">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 
 </head>
@@ -47,10 +50,10 @@
           </div>
           <div class="container cover p-3 rounded d-flex flex-column justify-content-center">
             <div class="container rounded cover-title bg-semi-dark p-2">
-                <img src="assets/dm-loguitogif.gif" alt="Small logo" class="dm-logo">
+                <img src="assets/dm-loguitogif.gif" alt="Small logo" class="dm-logo rounded">
                 <h1>Daniel A. Morán García</h1>
-                <h4>Desarrollador Web Full Stack</h4>
-                <h4>Ingeniero Mecánico</h4>
+                <h4 class="text-dark fw-bolder">Desarrollador Web Full Stack</h4>
+                <h4 class="text-dark fw-bolder">Ingeniero Mecánico</h4>
             </div>
             <br>
             <div class="containerin">
@@ -75,7 +78,7 @@
     <section id="about-me">
         <div class="container p-2">
             <div class="row">
-                <div class="col d-flex flex-column text-center mt-2 color-dark-red" data-aos="flip-up">
+                <div class="col d-flex flex-column text-center mt-2 color-dark-red future-font" data-aos="flip-up">
                     <i class="fas fa-user-tie fa-4x"></i>
                     <br>
                     <h3>Sobre Mí</h3>
@@ -83,7 +86,7 @@
             </div>
             <div class="row row-cols-1 row-cols-md-2 t-2">
                 <div class="col-12 col-md-6 mb-2">
-                    <div class="card h-100 bg-dark-blue-light shadow rounded p-3 text-center d-flex flex-column justify-content-start" style="width: 100%;" data-aos="fade-up">
+                    <div class="card h-100 bg-dark-blue-light shadow rounded p-3 text-center d-flex flex-column justify-content-start future-font" style="width: 100%;" data-aos="fade-up">
                         <div class="rounded">
                             <img src="assets/person.jpg" data-bs-toggle="tooltip" data-bs-placement="bottom" title="May the force be with you!" aria-hidden="true" class="card-img-top border-5 rounded border card-image cursor-pointer" alt="Card Pic" style="width: 150px;">
                         </div>
@@ -100,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mb-2 col-md-6">
+                <div class="col-12 mb-2 col-md-6 montserrat">
                     <div class="card h-100 bg-dark-blue shadow rounded p-3 d-flex flex-column justify-content-center" style="width: 100%;" data-aos="fade-down">
                         <div class="card-body text-center"><i class="fas fa-coffee fa-4x color-dark-red"></i></div>
                         <div class="card-body text-left">
@@ -129,28 +132,28 @@
 
 
     <!-- Tecnologías -->
-    <section id="technologies">
+    <section id="technologies" class="future-font">
         <div class="container">
             <div class="row">
                 <div class="col d-flex flex-column text-center mt-2 color-dark-red" data-aos="flip-up">
                     <i class="fas fa-laptop-code fa-4x"></i>
                     <br>
                     <h3>Tecnologías</h3>
-                    <h6 class="text-white">Estas son algunas de las tecnologías 🖥 que utilizo:</h6>
+                    <h6 class="text-white montserrat">Estas son algunas de las tecnologías 🖥 que utilizo:</h6>
                     <br>
                     <br>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-4 g-4 techno-card-container">
                 <div class="col" data-aos="fade-up">
-                    <div class="card h-100 text-white bg-dark-blue text-center p-4 techno-card">
+                    <div class="card h-100 bg-dark-blue text-center p-4 techno-card">
                         <div class="d-flex flex-column bg-dark-blue-light rounded p-4">
                             <i class="fas fa-cog fa-4x color-dark-red rotate-center"></i>
                             <br>
                             <h3 class="color-dark-red">Back-End</h3>
                         </div>
                         <br>
-                        <p class="border bg-dark-blue-light"><span><img src="assets/tech-icons/icons8-rubí-lenguaje-de-programación-48.png" alt="tech" style="width: 16px;"></span> Ruby on Rails</p>
+                        <p class="border bg-dark-blue-light mon"><span><img src="assets/tech-icons/icons8-rubí-lenguaje-de-programación-48.png" alt="tech" style="width: 16px;"></span> Ruby on Rails</p>
                         <p class="border"><span><img src="assets/tech-icons/icons8-configuración-api-16.png" alt="tech" style="width: 16px;"></span> RESTful API's</p>
                         <p class="border bg-dark-blue-light"><span><img src="assets/tech-icons/icons8-reestablecer-las-bases-de-datos-16.png" alt="tech" style="width: 16px;"></span> ORM</p>
                         <p class="border"><span><img src="assets/tech-icons/icons8-sql-16.png" alt="tech" style="width: 16px;"></span> SQLite</p>
@@ -158,7 +161,7 @@
                     </div>  
                 </div>
                 <div class="col" data-aos="fade-down">
-                    <div class="card h-100 text-white bg-dark-blue-light text-center p-4 techno-card">
+                    <div class="card h-100 bg-dark-blue-light text-center p-4 techno-card">
                         <div class="d-flex flex-column bg-dark-blue rounded p-4">
                             <i class="fas fa-file-code fa-4x color-dark-red color-change-3x"></i>
                             <br>
@@ -173,8 +176,8 @@
                         <p class="border"><span><img src="assets/tech-icons/icons8-código-fuente-16.png" alt="tech" style="width: 16px;"></span> AJAX</p>
                     </div>  
                 </div>
-                <div class="col techno-card" data-aos="fade-up">
-                    <div class="card h-100 text-white bg-dark-blue text-center p-4">
+                <div class="col" data-aos="fade-up">
+                    <div class="card h-100 bg-dark-blue text-center p-4 techno-card">
                         <div class="d-flex flex-column bg-dark-blue-light rounded p-4">
                             <i class="fas fa-server fa-4x color-dark-red bounce-out-bck"></i>
                             <br>
@@ -187,8 +190,8 @@
                         <p class="border"><span><img src="assets/tech-icons/icons8-github-164.png" alt="tech" style="width: 16px;"></span> GH-Pages</p>
                     </div>  
                 </div>
-                <div class="col techno-card" data-aos="fade-down">
-                    <div class="card h-100 text-white bg-dark-blue-light text-center p-4">
+                <div class="col" data-aos="fade-down">
+                    <div class="card h-100 bg-dark-blue-light text-center p-4 techno-card">
                         <div class="d-flex flex-column bg-dark-blue rounded p-4">
                             <i class="fas fa-lightbulb fa-4x color-dark-red wobble-hor-bottom"></i>
                             <br>
@@ -212,7 +215,7 @@
 
 
     <!-- Contactame -->
-    <section id="contact">
+    <section id="contact" class="future-font">
         <div class="container">
             <div class="row">
                 <div class="col d-flex flex-column text-center mt-2 color-dark-red" data-aos="flip-up">
@@ -226,21 +229,21 @@
                     <div class="card h-100 bg-dark-blue shadow rounded p-3 text-left d-flex flex-column justify-content-start" data-aos="flip-right">
                         <div class="card-body">
                             <h5 class="card-title">Contacto</h5>
-                            <p class="card-text">¿Tienes una idea para desarrollar? ¿Tienes una propuesta de trabajo?</p>
+                            <p class="card-text montserrat">¿Tienes una idea para desarrollar? ¿Tienes una propuesta de trabajo?</p>
                             <p class="card-text">🤔</p>
-                            <p class="card-text">Estoy encantado de recibir tu contacto, puedes utilizar el formulario adyacente o los medios que dispongo debajo:</p>
+                            <p class="card-text montserrat">Estoy encantado de recibir tu contacto, puedes utilizar el formulario adyacente o los medios que dispongo debajo:</p>
                             <ul class="list-group bg-success list-group-flush">
                                 <li class="list-group-item bg-dark-blue text-white linker">
                                     <i class="fas fa-envelope-square"></i>
                                     <a href="mailto:da.morangarcia@gmail.com" style="text-decoration: none;" class="text-white">da.morangarcia@gmail.com</a>
                                 </li>
-                                <li class="list-group-item bg-dark-blue text-white linker" id="socialmedia">
+                                <li class="list-group-item bg-dark-blue text-white linker socialmedia">
                                     <a href="https://www.linkedin.com/in/damgdev" target="_blank" style="text-decoration: none;" class="text-white" rel="noreferrer">
                                         <i class="fab fa-linkedin"></i>
                                         LinkedIn
                                     </a>
                                 </li>
-                                <li class="list-group-item bg-dark-blue text-white linker" id="socialmedia">
+                                <li class="list-group-item bg-dark-blue text-white linker socialmedia">
                                 <a href="https://linktr.ee/damg75" target="_blank" style="text-decoration: none;" class="text-white" rel="noreferrer">
                                     <i class="fas fa-link"></i>
                                     Linktree
@@ -248,7 +251,7 @@
                                 </li>
                             </ul>
                             <div class="container planer mb-2 color-dark-red">
-                                <i class="far fa-paper-plane fa-5x slide-out"></i>
+                                <img src="assets/output-onlinepngtools.png" alt="xwing" class="slide-out x-wing">
                             </div>
                         </div>
                     </div>
@@ -318,12 +321,12 @@
     <br>
     <br>
     <section class="footer">
-        <footer class="blog-footer text-center p-2 bg-dark-red mt-2 text-white border-top border-white border-5">
+        <footer class="blog-footer text-center p-2 bg-dark-red mt-2 text-white border-top border-white border-5 future-font">
             <img src="assets/tech-icons/icons8-computadora-100.png" alt="computer">
             <br>
             <br>
             <p>© <span id="current-year-footer"></span> <a href="/" class="color-dark-blue" style="text-decoration: none;">Daniel A. Morán García</a> </p>
-            <p> Powered by: <a href="https://twitter.com/damgcodes" rel="noreferrer" target="_blank" class="color-dark-blue" style="text-decoration: none;">@damgcodes</a></p>
+            <p> Engineered by: <a href="https://twitter.com/damgcodes" rel="noreferrer" target="_blank" class="color-dark-blue" style="text-decoration: none;">@damgcodes</a></p>
         </footer>
     </section>
     <!-- Footer -->
