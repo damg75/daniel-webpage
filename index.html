@@ -31,7 +31,7 @@
               <nav class="nav nav-masthead justify-content-center float-md-end">
                     
                 <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sobre mí" class="nav-link" href="#about-me"><i class="fas fa-user-tie" aria-hidden="true"></i></a>
-                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tecnologías" class="nav-link" href="#technologies"><i class="fas fa-briefcase" aria-hidden="true"></i></a>
+                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tecnologías" class="nav-link" href="#technologies"><i class="fas fa-laptop-code" aria-hidden="true"></i></a>
                 <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Contáctame" class="nav-link" href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i></a>
                 <br>
                 <div class="dropdown dropper">
@@ -83,7 +83,7 @@
                 <div class="col-12 col-md-6 mb-2">
                     <div class="card h-100 bg-dark-blue-light shadow rounded p-3 text-center d-flex flex-column justify-content-start" style="width: 100%;" data-aos="fade-up">
                         <div class="rounded">
-                            <img src="assets/person.jpg" class="card-img-top border-5 rounded border card-image" alt="Card Pic" style="width: 150px;">
+                            <img src="assets/person.jpg" data-bs-toggle="tooltip" data-bs-placement="bottom" title="May the force be with you!" aria-hidden="true" class="card-img-top border-5 rounded border card-image cursor-pointer" alt="Card Pic" style="width: 150px;">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Daniel Alberto Morán García</h5>
@@ -131,6 +131,7 @@
                     <i class="fas fa-laptop-code fa-4x"></i>
                     <br>
                     <h3>Tecnologías</h3>
+                    <h6 class="text-white">Estas son algunas de las tecnologías 🖥 que utilizo:</h6>
                     <br>
                     <br>
                 </div>
@@ -186,13 +187,15 @@
                         <div class="d-flex flex-column bg-dark-blue rounded p-4">
                             <i class="fas fa-lightbulb fa-4x color-dark-red wobble-hor-bottom"></i>
                             <br>
-                            <h3 class="color-dark-red">Other</h3>
+                            <h3 class="color-dark-red">Otras</h3>
                         </div>
                         <br>
                         <p class="border">WooCommerce</p>
                         <p class="border">Shopify</p>
                         <p class="border">Jekyll</p>
                         <p class="border">Google Domains</p>
+                        <p class="border">Google Analytics</p>
+                        <p class="border">Formspree</p>
                         <p class="border">Matlab</p>
                     </div>  
                 </div>
@@ -219,8 +222,9 @@
                     <div class="card h-100 bg-dark-blue shadow rounded p-3 text-left d-flex flex-column justify-content-start" data-aos="flip-right">
                         <div class="card-body">
                             <h5 class="card-title">Contacto</h5>
-                            <p class="card-text">¿Tienes una idea para desarrollar? ¿Tienes una propuesta de trabajo? 🤔</p>
-                            <p class="card-text">Estoy encantado de recibir su contacto, puede utilizar el formulario adyacente o los medios que dispongo abajo:</p>
+                            <p class="card-text">¿Tienes una idea para desarrollar? ¿Tienes una propuesta de trabajo?</p>
+                            <p class="card-text">🤔</p>
+                            <p class="card-text">Estoy encantado de recibir tu contacto, puedes utilizar el formulario adyacente o los medios que dispongo debajo:</p>
                             <ul class="list-group bg-success list-group-flush">
                                 <li class="list-group-item bg-dark-blue text-white linker">
                                     <i class="fas fa-envelope-square"></i>
@@ -248,14 +252,14 @@
                 <div class="col-md-6 mb-2 text-center align-self-center" >
                     <div class="card h-100 bg-dark-blue shadow rounded p-3 text-left d-flex flex-column justify-content-start" id="formulariodecontacto" data-aos="flip-left">
                         <div class="card-body">
-                        <form class="row g-3"   action="https://formspree.io/f/xeqvjljn" method="POST">
+                        <form class="row g-3"   action="https://formspree.io/f/mwkapaln" method="POST" autocomplete="off">
                             <div class="col-md-6">
                             <label for="validationDefault01" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre" name="Nombre" required>
                             </div>
                             <div class="col-md-6">
                             <label for="validationDefault02" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" id="validationDefault02" placeholder="Apellido" name="Apellido" required>
+                            <input type="text" class="form-control inputer" id="validationDefault02" placeholder="Apellido" name="Apellido" required>
                             </div>
                             <div class="col-md-12">
                             <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
@@ -278,16 +282,15 @@
                                 </label>
                             </div>
                             <div class="col-md-6">
-                            <label for="validationDefault04" class="form-label">¿Me contacta por?</label>
+                            <label for="validationDefault04" class="form-label">¿Contacta por?</label>
                             <select class="form-select" id="validationDefault04" name="Tipo de contacto" required>
                                 <option selected disabled value="">Seleccione...</option>
-                                <option>Certificaciones</option>
-                                <option>Documentos</option>
-                                <option>Imágenes</option>
-                                <option>Manuales Técnicos</option>
-                                <option>Interpretaciones</option>       
-                                <option>Guiones</option>
-                                <option>Otro...</option>
+                                <option>Página personal / Corporativa</option>
+                                <option>Aplicación Web</option>
+                                <option>Back-End</option>
+                                <option>Front-End</option>
+                                <option>Oferta de Trabajo</option>
+                                <option>Otro...</option>       
                             </select>
                             </div>
                             <div class="col-md-12">
@@ -295,7 +298,7 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Su mensaje acá..." name="Mensaje" required></textarea>
                             </div>
                             <div class="col-12 text-center">
-                            <button class="btn btn-success bg-dark-red button-formulaire" style="border-color: #3B5948;" type="submit"><span class="ms-1">Enviar</span></button>
+                            <button class="btn btn-success bg-dark-red button-formulaire" style="border-color: #971919;" type="submit"><span class="ms-1">Enviar</span></button>
                             </div>
                         </form>
                         </div>
@@ -311,10 +314,11 @@
     <br>
     <br>
     <section class="footer">
-        <footer class="blog-footer text-center p-2 bg-dark-red mt-2 text-white">
-          <p>Copyright © <span id="current-year-footer"></span> <a href="/" class="color-dark-blue" style="text-decoration: none;">Manuel A. Morán Lázaro</a> </p>
+        <footer class="blog-footer text-center p-2 bg-dark-red mt-2 text-white border-top border-white border-5">
+        <br>
+          <p>Copyright © <span id="current-year-footer"></span> <a href="/" class="color-dark-blue" style="text-decoration: none;">Daniel A. Morán García</a> </p>
           <p>Todos los derechos reservados</p>
-          <p>Página corporativa realizada por <a href="https://twitter.com/damgcodes" rel="noreferrer" target="_blank" class="color-dark-blue" style="text-decoration: none;">@damgcodes</a></p>
+          <p> Powered by: <a href="https://twitter.com/damgcodes" rel="noreferrer" target="_blank" class="color-dark-blue" style="text-decoration: none;">@damgcodes</a></p>
         </footer>
     </section>
     <!-- Footer -->
